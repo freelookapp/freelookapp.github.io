@@ -1,0 +1,35 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.footer_pages | default: default_paths -%}
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col one-half">
+        {%- if site.appstore_link -%}
+          <div style="display:inline-block;padding-right:27px;">
+            <a href="{{ site.appstore_link }}">Download in App Store</a>
+          </div>
+        {%- endif -%}
+        {%- if site.email -%}
+        <div style="display:inline-block;padding-right:27px;">
+          <a href="mailto:{{ site.email }}">Send Feedback</a>
+        </div>
+        {%- endif -%}
+        {%- if page_paths -%}
+            {%- for path in page_paths -%}
+              {%- assign my_page = site.pages | where: "path", path | first -%}
+              {%- if my_page.title -%}
+              <div style="display:inline-block;padding-right:27px;">
+                <a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+              </div>
+              {%- endif -%}
+            {%- endfor -%}
+        {%- endif -%}
+      </div>
+    </div>
+
+  </div>
+
+</footer>
