@@ -4,8 +4,27 @@ title: USB Connection
 permalink: /usb/
 ---
 
-<a href="/files/FreelookUSBConnection.zip">Download FreelookUSBConnection tool</a>
+<a href="/files/FreelookUSBConnection.zip">Download FreelookUSBConnection Tool</a>
 
+**Antivirus False Positive Notice**
+
+Microsoft Defender and other antivirus software may incorrectly detect FreelookUSBConnection.exe as a malware. This is a false positive. We have submitted our file to Microsoft for analysis and they have confirmed that it is not a malware.
+
+<a href="/assets/report/analysis_report.png">
+    <img src="/assets/report/analysis_report.png" width="400">
+</a>
+
+If the file was quarantined or deleted by Microsoft Defender, you need to add an exclusion to Windows Security.
+1. Go to **Start** > **Settings** > **Update & Security** > **Windows Security** > **Virus & threat protection**.
+2. Under **Virus & threat protection settings**, select **Manage settings**, and then under **Exclusions**, select **Add or remove exclusions**.
+3. Select **Add an exclusion**, and then select from files, folders, file types, or process. A folder exclusion will apply to all subfolders within the folder as well.
+
+[Source: Microsoft](https://support.microsoft.com/en-us/windows/add-an-exclusion-to-windows-security-811816c0-4dfd-af4a-47e4-c301afe13b26)
+
+If you are using any other antivirus software and would like us to submit our file to your antivirus vendor for analysis, please contact us via email at [freelookapp@gmail.com][freelookapp-email] with the name of the vendor.
+
+---
+<br />
 Perform setups in **Basic Setup** before proceeding if you haven't done so already.
 
 **Opentrack Setup**
@@ -29,3 +48,6 @@ Perform setups in **Basic Setup** before proceeding if you haven't done so alrea
 5. Download FreelookUSBConnection tool from <a href="/usb/">https://freelookapp.github.io/usb/</a>.
 6. Extract downloaded file to a folder.
 7. With iTunes, Opentrack, and the app running, run **StartUSBConnection.bat**.
+
+
+[freelookapp-email]: mailto:freelookapp@gmail.com
