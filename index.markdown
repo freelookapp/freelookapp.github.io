@@ -7,7 +7,7 @@ layout: home
 
 Freelook head tracker is a head tracking app for games and simulation software. It works with Opentrack desktop software to allow you to control the free look camera of your sim games hands-free.
 
-Freelook will work on all iOS devices with a front facing camera running iOS12 or higher. It supports USB connection, dark mode, gestures, external keyboards, and more.
+Freelook will work on all iOS devices with a front facing camera running iOS12 or later. It supports USB connection, keyboard shortcuts, dark mode, gestures and more.
 
 [Download in App Store](https://apps.apple.com/us/app/freelook-head-tracker/id1568984664)
 
