@@ -25,6 +25,9 @@ Freelook will work on all iOS devices with a front facing camera running iOS12 o
 <a href="/assets/screenshots/iphone_04.png">
     <img src="/assets/screenshots/iphone_04.png" width="200">
 </a>
+<a href="/assets/screenshots/iphone_05.png">
+    <img src="/assets/screenshots/iphone_05.png" width="200">
+</a>
 
 ## iPad
 
@@ -42,4 +45,7 @@ Freelook will work on all iOS devices with a front facing camera running iOS12 o
 </a>
 <a href="/assets/screenshots/ipad_05.png">
     <img src="/assets/screenshots/ipad_05.png" width="200">
+</a>
+<a href="/assets/screenshots/ipad_06.png">
+    <img src="/assets/screenshots/ipad_06.png" width="200">
 </a>
