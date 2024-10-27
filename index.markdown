@@ -11,6 +11,8 @@ Freelook will work on all iOS devices with a front facing camera running iOS12 o
 
 [Download in App Store](https://apps.apple.com/us/app/freelook-head-tracker/id1568984664)
 
+Due to [European Union Digital Services Act](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L:2022:277:FULL&from=EN), developers who distribute apps in the EU need to share information that includes address and phone number. As an independent developer without a separate work address and phone number, I do not feel comfortable publishing my personal info online. Therefore, the app is not available in the EU. You can still download it from any other country outside of the EU.
+
 ## iPhone
 
 <a href="/assets/screenshots/iphone_01.png">
